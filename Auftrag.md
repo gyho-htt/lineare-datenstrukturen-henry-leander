@@ -1,7 +1,7 @@
 # Arbeitsauftrag
 Beobachte das Objektspiel zum *second hand shop* und beantworte folgende Fragen:
 1. Wie entwickelt sich die Länge der Datenstruktur? Spielt die Länge der Datenstruktur eine Rolle zur Verwaltung der Elemente?
-Personen stellen sich in der Warteschlange an und bekommen ihre Produkte nacheinander. Die Länge der Datenstruktur spielt dabei eine große Rolle, da die Länge der Warteschlange sich immer ändert, je nachdem wie viele Personen anstehen. 
+Personen stellen sich in der Warteschlange an und bekommen ihre Produkte nacheinander. Die Länge spielt keine Rolle, da alle Verwaltungen bei jeder Länge funktionieren.
 
 2. Wie werden neue Elemente hinzugefügt?
 Eine Person stellt sich in die Warteschlange um ihr Produkt abzuholen.
@@ -10,7 +10,7 @@ Eine Person stellt sich in die Warteschlange um ihr Produkt abzuholen.
 Auf die Personen in der Warteschlange und auf die Produkte.
 
 4. Welche Beziehungen der Elemente gibt es untereinander?
-Personen haben ihre Bestellbestätigung und kennen die Produkte. Jedes Element muss seinen Nachfolger kennen. 
+Personen haben ihre Bestellbestätigung und kennen die Produkte. Jedes Element muss seinen Vorgänger und seinen Inhalt (Bestellbestätigung) kennen. 
 
 5. Welche Elemente müsste ein Verwaltungselement kennen?
 Ein Verwaltungselement müsste die Warteschlange und die Produkte kennen. 
